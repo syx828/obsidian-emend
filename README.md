@@ -78,7 +78,7 @@ Unsupported Web combinations fail explicitly. Emend never silently turns them in
 
 ## Installation
 
-For the current 2.10.0 workflows, choose BRAT or the release ZIP below, or follow the [complete installation guide](INSTALLATION.md). To build from source instead, see [Build from source](INSTALLATION.md#build-from-source). In **Settings → Community plugins**, turn off **Restricted mode** if it is enabled.
+For the current 2.10.1 workflows, choose BRAT or the release ZIP below, or follow the [complete installation guide](INSTALLATION.md). To build from source instead, see [Build from source](INSTALLATION.md#build-from-source). In **Settings → Community plugins**, turn off **Restricted mode** if it is enabled.
 
 **Recommended: use BRAT.** Install and enable **BRAT — Beta Reviewers Auto-update Tool**, choose **Add beta plugin**, and enter:
 

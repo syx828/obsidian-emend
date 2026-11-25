@@ -6,7 +6,7 @@ Features have no fixed deadlines. Each independently reviewable behavior gets it
 
 ## Now
 
-Maintain Emend 2.10.0 with bug fixes, security updates, documentation, and provider compatibility. Feature and documentation PRs do not advance the released version.
+Maintain Emend 2.10.1 with bug fixes, security updates, documentation, and provider compatibility. Feature and documentation PRs do not advance the released version.
 
 ### Recently shipped
 

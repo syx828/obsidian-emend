@@ -2,6 +2,13 @@
 
 All notable changes to Emend are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.1] - 2026-11-25
+
+### Fixed
+
+- Selection edits now verify the saved note and every open editor against the captured complete note before writing, matching Full-note Edit, and stop with the existing no-edits message when any source has changed.
+- A changed Selection strictly inside a pending tracked change now stops after the initial request and gives exact Track Changes recovery guidance instead of attempting a correction that cannot succeed. No edits are applied, and no freshness read or write follows.
+
 ## [2.10.0] - 2026-11-19
 
 ### Added
@@ -239,7 +246,8 @@ Web retrieval remains default Off and available only for DeepSeek `deepseek-flas
 - Strict provider error redaction and bounded error output.
 - Validated anchors, ambiguity/overlap rejection, stale-source/target checks, and abort/unload protection for note writes.
 
-[Unreleased]: https://github.com/chliu1990/obsidian-emend/compare/2.10.0...HEAD
+[Unreleased]: https://github.com/chliu1990/obsidian-emend/compare/2.10.1...HEAD
+[2.10.1]: https://github.com/chliu1990/obsidian-emend/compare/2.10.0...2.10.1
 [2.10.0]: https://github.com/chliu1990/obsidian-emend/compare/2.9.0...2.10.0
 [2.9.0]: https://github.com/chliu1990/obsidian-emend/compare/2.8.0...2.9.0
 [2.8.0]: https://github.com/chliu1990/obsidian-emend/releases/tag/2.8.0
