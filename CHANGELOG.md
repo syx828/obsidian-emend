@@ -2,6 +2,12 @@
 
 All notable changes to Emend are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.2] - 2026-11-25
+
+### Fixed
+
+- Custom Chat can now stream OpenCode Go replies directly from Obsidian desktop. Keep the existing Go URL, model and key; no local proxy is needed.
+
 ## [2.10.1] - 2026-11-25
 
 ### Fixed
@@ -246,7 +252,8 @@ Web retrieval remains default Off and available only for DeepSeek `deepseek-flas
 - Strict provider error redaction and bounded error output.
 - Validated anchors, ambiguity/overlap rejection, stale-source/target checks, and abort/unload protection for note writes.
 
-[Unreleased]: https://github.com/chliu1990/obsidian-emend/compare/2.10.1...HEAD
+[Unreleased]: https://github.com/syx828/obsidian-emend/compare/2.10.2...HEAD
+[2.10.2]: https://github.com/syx828/obsidian-emend/compare/2.10.1...2.10.2
 [2.10.1]: https://github.com/chliu1990/obsidian-emend/compare/2.10.0...2.10.1
 [2.10.0]: https://github.com/chliu1990/obsidian-emend/compare/2.9.0...2.10.0
 [2.9.0]: https://github.com/chliu1990/obsidian-emend/compare/2.8.0...2.9.0

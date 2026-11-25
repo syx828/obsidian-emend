@@ -43,9 +43,9 @@ describe('publication metadata', () => {
 		});
 	});
 
-	it('retains version 2.10.1', () => {
-		expect(manifest.version).toBe('2.10.1');
-		expect(packageMetadata.version).toBe('2.10.1');
+	it('retains version 2.10.2', () => {
+		expect(manifest.version).toBe('2.10.2');
+		expect(packageMetadata.version).toBe('2.10.2');
 	});
 });
 
